@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suyash Kulkarni | Supply Chain & Data Analytics Portfolio</title>
+    <meta name="description"
+        content="Portfolio of Suyash Kulkarni, a Supply Chain Analyst specializing in Demand Planning, Forecasting, and Data Analytics.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Oswald:wght@500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <!-- Placeholder for FontAwesome, usually requires a kit but I'll use text icons if this fails or a CDN if possible -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <div id="canvas-container">
+        <canvas id="network-canvas"></canvas>
+    </div>
+
+    <header>
+        <nav>
+            <div class="logo">SUYASH KULKARNI<span class="dot">.</span></div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="hero-content">
+                <h1 class="animate-up">Suyash Kulkarni</h1>
+                <h2 class="animate-up delay-1">Supply Chain Analyst & Data Strategist</h2>
+                <p class="animate-up delay-2">Optimizing logistics through data-driven insights, demand forecasting, and
+                    process improvement.</p>
+                <div class="cta-buttons animate-up delay-3">
+                    <a href="#projects" class="btn primary">View Projects</a>
+                    <a href="#contact" class="btn secondary">Get in Touch</a>
+                </div>
+            </div>
+            <div class="scroll-down">
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="container">
+                <div class="section-header">
+                    <h2>About Me</h2>
+                    <div class="line"></div>
+                </div>
+                <div class="about-grid">
+                    <div class="about-text">
+                        <p>I am a results-oriented Supply Chain professional with a Master's in Engineering Management
+                            and a strong background in Demand Planning, Forecasting, and Inventory Optimization.
+                            Currently based in Fremont, CA.</p>
+                        <p>My expertise lies in bridging the gap between operational logistics and advanced data
+                            analytics. I leverage tools like SQL, Tableau, Python, and SAP IBP to drive forecast
+                            accuracy, reduce stockouts, and optimize inventory levels.</p>
+                        <p>I have a proven track record of managing demand for over 10,000 SKUs, leading
+                            cross-functional teams, and implementing process improvements that directly impact the
+                            bottom line.</p>
+                    </div>
+                    <div class="about-stats">
+                        <div class="stat-card">
+                            <h3>85%</h3>
+                            <p>Forecast Accuracy</p>
+                        </div>
+                        <div class="stat-card">
+                            <h3>10k+</h3>
+                            <p>SKUs Managed</p>
+                        </div>
+                        <div class="stat-card">
+                            <h3>$1M+</h3>
+                            <p>Revenue Generated</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Key Projects</h2>
+                    <div class="line"></div>
+                </div>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                            alt="Data Forecasting" class="project-img">
+                        <div class="project-content">
+                            <h3>AI-Driven Demand Forecasting</h3>
+                            <p>Developed scalable XGBoost and Regression models to predict demand for 10k+ SKUs.
+                                Integrated Python pipelines with SAP IBP, reducing forecast error by 12% and enabling
+                                proactive NPI planning.</p>
+                            <div class="tags">
+                                <span>Python</span>
+                                <span>Machine Learning</span>
+                                <span>SAP IBP</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                            alt="Inventory Optimization" class="project-img">
+                        <div class="project-content">
+                            <h3>Global Inventory Optimization</h3>
+                            <p>Engineered a dynamic safety stock model using SQL and Snowflake. Optimized inventory
+                                levels across 5 distribution centers, effectively balancing service levels (98% fill
+                                rate) with working capital reduction.</p>
+                            <div class="tags">
+                                <span>SQL</span>
+                                <span>Snowflake</span>
+                                <span>Network Design</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <img src="https://images.unsplash.com/photo-1473448912268-2022ce9509d8?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                            alt="Sustainability" class="project-img">
+                        <div class="project-content">
+                            <h3>Sustainable Logistics Routing</h3>
+                            <p>Designed a carbon-aware logistics framework to track and minimize Scope 3 emissions.
+                                Utilized route optimization algorithms to reduce transportation miles by 15% without
+                                impacting delivery SLAs.</p>
+                            <div class="tags">
+                                <span>Sustainability</span>
+                                <span>Route Opt</span>
+                                <span>Green Supply Chain</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Professional Experience</h2>
+                    <div class="line"></div>
+                </div>
+                <div class="timeline">
+                    <!-- Weee! Inc - Demand Planning Analyst -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">Oct 2024 – Present</div>
+                        <div class="timeline-content">
+                            <h3>Demand Planning Analyst</h3>
+                            <h4>Weee! Inc. | Fremont, CA</h4>
+                            <ul>
+                                <li><strong>Forecast Management at Scale:</strong> Owned demand planning for 10,000+
+                                    SKUs across core and seasonal categories, achieving 85% forecast accuracy and
+                                    driving 25% YoY sales growth through data-driven replenishment.</li>
+                                <li><strong>Statistical Modeling:</strong> Spearheaded IBP workflows with o9 Solutions,
+                                    utilizing advanced time-series analysis and ML baselines to optimize inventory
+                                    tradeoffs and revenue realization.</li>
+                                <li><strong>Analytics Infrastructure:</strong> Architected automated SQL pipelines and
+                                    Tableau dashboards to monitor forecast bias, MAPE, and demand variability, enabling
+                                    real-time decision-making for S&OP cycles.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Weee! Inc - Supply Chain Analyst -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">Sep 2024 – Oct 2024</div>
+                        <div class="timeline-content">
+                            <h3>Supply Chain Analyst</h3>
+                            <h4>Weee! Inc. | Fremont, CA</h4>
+                            <ul>
+                                <li><strong>Vendor & Logistics Optimization:</strong> Collaborated with strategic
+                                    vendors to streamline logistics, slashing lead times by 10% and maintaining
+                                    exceptional 85% On-Time Delivery (OTD).</li>
+                                <li><strong>Process Improvement:</strong> Re-engineered the P2P (Procure-to-Pay) cycle
+                                    for category management, resulting in a 15% increase in inventory turnover.</li>
+                                <li><strong>Risk Mitigation:</strong> Managed complex End-of-Life (EOL) transitions by
+                                    reconciling BOMs and proactively mitigating obsolete inventory risks ($200k+ saved).
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Artisan Design Group -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">Oct 2023 – July 2024</div>
+                        <div class="timeline-content">
+                            <h3>Supply Chain Analyst</h3>
+                            <h4>Artisan Design Group | Dallas, TX</h4>
+                            <ul>
+                                <li><strong>Cross-Functional Leadership:</strong> Led a diverse team of 8 stakeholders
+                                    to execute logistics process improvements, enhancing operational efficiencies and
+                                    KPIs by 12%.</li>
+                                <li><strong>Inventory Visibility:</strong> Developed comprehensive Power BI inventory
+                                    tracking systems for a $3B stock, improving network-wide visibility by 15% and
+                                    reducing excess holding.</li>
+                                <li><strong>Strategic Planning with SAP:</strong> Leveraged SAP IBP for rigorous
+                                    scenario planning and "Clear to Build" (CTB) analysis, ensuring 100% production
+                                    readiness across the supplier network.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Zodac Inc -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">July 2023 – Oct 2023</div>
+                        <div class="timeline-content">
+                            <h3>Supply Chain Data Analyst</h3>
+                            <h4>Zodac Inc | Syracuse, NY</h4>
+                            <ul>
+                                <li><strong>Predictive Modeling:</strong> Led a data science initiative to optimize
+                                    inventory levels using predictive algorithms, successfully reducing excess inventory
+                                    by 8%.</li>
+                                <li><strong>Algorithm Development:</strong> Built custom demand forecasting algorithms
+                                    that reduced supply chain lead times by 16%, directly improving order fulfillment
+                                    speed.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Pathlock -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">June 2022 – Aug 2022</div>
+                        <div class="timeline-content">
+                            <h3>Project Manager (Intern)</h3>
+                            <h4>Pathlock | Flemington, NJ</h4>
+                            <ul>
+                                <li><strong>Strategic Execution:</strong> Directed the end-to-end planning and execution
+                                    of high-priority projects using Project Charters and WBS, contributing to $1M+ in
+                                    revenue generation.</li>
+                                <li><strong>Agile Delivery:</strong> Implemented Agile methodologies and Gantt chart
+                                    tracking to optimize resource allocation, boosting delivery efficiency by 24%.</li>
+                                <li><strong>Stakeholder Management:</strong> Improved cross-team collaboration by 32%
+                                    through proactive conflict resolution, gap analysis, and streamlined communication
+                                    workflows, ensuring on-time milestone completion.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Technical Proficiency</h2>
+                    <div class="line"></div>
+                </div>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3><i class="fas fa-chart-line"></i> Demand Planning</h3>
+                        <div class="skill-list">
+                            <span>Forecasting</span>
+                            <span>Seasonal Demand</span>
+                            <span>Promotions</span>
+                            <span>New Product Launches</span>
+                            <span>Demand Risk Mitigation</span>
+                            <span>Inventory Replenishment</span>
+                            <span>EOL Planning</span>
+                            <span>Obsolescence Reduction</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3><i class="fas fa-rocket"></i> Future Tech & Strategy</h3>
+                        <div class="skill-list">
+                            <span>Generative AI for Supply Chain</span>
+                            <span>LLM Integration</span>
+                            <span>Sustainability & Carbon Tracking</span>
+                            <span>NPI Lifecycle Management</span>
+                            <span>Automated Warehousing</span>
+                            <span>Global Logistics Network Design</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3><i class="fas fa-database"></i> Data & Tools</h3>
+                        <div class="skill-list">
+                            <span>SQL</span>
+                            <span>Tableau</span>
+                            <span>Power BI</span>
+                            <span>Python</span>
+                            <span>Advanced Excel</span>
+                            <span>Snowflake</span>
+                            <span>SAP S/4HANA</span>
+                            <span>SAP IBP</span>
+                            <span>Kinaxis Rapid Response</span>
+                            <span>JIRA</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3><i class="fas fa-project-diagram"></i> Methodologies</h3>
+                        <div class="skill-list">
+                            <span>Six Sigma</span>
+                            <span>5S</span>
+                            <span>DMAIC</span>
+                            <span>Kaizen</span>
+                            <span>Pareto Analysis</span>
+                            <span>Project Management</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Get In Touch</h2>
+                    <div class="line"></div>
+                </div>
+                <div class="contact-content">
+                    <p>I'm always open to discussing new opportunities in Supply Chain and Data Analytics.</p>
+                    <div class="contact-links">
+                        <a href="mailto:suyashgb11@gmail.com" class="contact-btn"><i class="fas fa-envelope"></i>
+                            suyashgb11@gmail.com</a>
+                        <a href="#" class="contact-btn"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Suyash Kulkarni. Built with <i class="fas fa-code"></i> and <i class="fas fa-shipping-fast"></i>
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
