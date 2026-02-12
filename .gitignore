@@ -1,0 +1,16 @@
+# System Files
+.DS_Store
+Thumbs.db
+
+# Python
+*.py
+__pycache__/
+*.pyc
+
+# Personal Data / Resume Source Files
+Resume_Suyash.pdf
+resume_utf8.txt
+Resume_Suyash*
+
+# Logs
+*.log
