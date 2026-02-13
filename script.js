@@ -47,7 +47,7 @@ function initParticles() {
 
 function animateParticles() {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
-    
+
     for (let i = 0; i < particles.length; i++) {
         particles[i].update();
         particles[i].draw();
@@ -93,4 +93,13 @@ document.querySelectorAll('section').forEach(section => {
     section.style.transform = 'translateY(20px)';
     section.style.transition = 'opacity 0.6s ease-out, transform 0.6s ease-out';
     observer.observe(section);
+});
+
+// Loading Screen Logic
+window.addEventListener('load', () => {
+    const loader = document.getElementById('loader');
+    setTimeout(() => {
+        loader.style.opacity = '0';
+        loader.style.visibility = 'hidden';
+    }, 1500); // Minimum 1.5s delay to show the animation
 });
